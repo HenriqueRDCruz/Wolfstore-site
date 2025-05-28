@@ -1,0 +1,141 @@
+.secao-rodape {
+    background-color: var(--primary-color);
+    color: white;
+    position: relative;
+}
+
+.topo-rodape {
+    padding: 4rem 0 3rem;
+    position: relative;
+}
+
+.topo-rodape::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--primary-color);
+}
+
+.marca-rodape {
+    margin-bottom: 1.5rem;
+}
+
+.marca-rodape img {
+    transition: var(--transition);
+    filter: brightness(0) invert(1);
+}
+
+.rede-social-rodape h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.icone-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.icone-social:hover {
+    transform: translateY(-5px);
+    color: white;
+}
+
+.icone-social.whatsapp:hover {
+    background-color: #68f218;
+}
+
+.icone-social.instagram:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.icone-social.linkedin:hover {
+    background-color: #0a66c2;
+}
+
+.icone-social.youtube:hover {
+    background-color: #ff0000;
+}
+
+.titulo-rodape {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+.titulo-rodape::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color:white;
+}
+
+.links-rodape {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-rodape li {
+    margin-bottom: 0.75rem;
+}
+
+.links-rodape a {
+    color:white;
+    text-decoration: none;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+}
+
+.links-rodape a:hover {
+    color: white;
+    transform: translateX(5px);
+}
+
+.links-rodape a i {
+    margin-right: 0.75rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.desenvolvedor {
+    padding: 1.5rem 0;
+    border-top: 1px solid white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.desenvolvedor a {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+.desenvolvedor a:hover {
+    text-decoration: underline;
+}
