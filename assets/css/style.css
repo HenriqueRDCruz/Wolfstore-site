@@ -20,6 +20,7 @@
 body {
   line-height: 1.7;
   overflow-x: hidden;
+  /* Prevenir scroll horizontal em dispositivos móveis */
 }
 
 p {
@@ -33,6 +34,7 @@ h5 {
   font-family: var(--font);
 }
 
+/* Links */
 a {
   color: var(--primary-color);
 }
@@ -53,6 +55,7 @@ a {
   margin-right: 0.75rem;
   margin-top: 0.25rem;
   flex-shrink: 0;
+  /* Impedir que o ícone encolha */
 }
 
 .btn-contact {
@@ -67,6 +70,7 @@ a {
   margin-top: 1rem;
   transition: var(--transition);
   width: fit-content;
+  /* Ajustar ao conteúdo */
 }
 
 .btn-contact:hover {
@@ -79,6 +83,7 @@ a {
   margin-right: 0.5rem;
 }
 
+/* Estilos de seção comuns */
 .secao-fale-conosco,
 .secao-trabalhe-conosco,
 .secao-historia,
@@ -128,6 +133,7 @@ a {
   font-weight: 600;
 }
 
+/* Imagem de representantes */
 .representantes-image-container {
   margin-bottom: 3rem;
   position: relative;
@@ -138,20 +144,25 @@ a {
 
 .imagem-principal-representantes {
   width: 100%;
-  height: 500px;
+  height: auto;
   object-fit: cover;
-  transition: transform 0.8s ease;
 }
 
-.representantes-image-container:hover .imagem-principal-representantes {
-  transform: scale(1.05);
+/* Imagem wolfstorefront */
+.imagem-wolfstorefront {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
+/* CTA de contato */
 .container-contato {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
   padding: 0 15px;
+  /* Adicionar padding lateral para dispositivos móveis */
 }
 
 .card-contato {
@@ -164,6 +175,7 @@ a {
   transition: var(--transition);
   max-width: 600px;
   width: 100%;
+  /* Garantir que ocupe toda a largura disponível */
 }
 
 .card-contato:hover {
@@ -204,6 +216,7 @@ a {
   margin-right: 0.8rem;
 }
 
+/* Formulário de contato */
 .container-formulario-contato {
   background-color: white;
   border-radius: 16px;
@@ -379,6 +392,7 @@ input[type="file"] {
 .item-localizacao {
   display: flex;
   align-items: flex-start;
+  /* Alinhamento no topo para textos longos */
   margin-bottom: 0.8rem;
 }
 
@@ -397,6 +411,7 @@ input[type="file"] {
   font-size: 0.95rem;
   color: var(--text-light);
   word-break: break-word;
+  /* Quebrar palavras longas */
 }
 
 .texto {
@@ -405,21 +420,76 @@ input[type="file"] {
 
 .texto p {
   text-align: left;
+  /* Permite quebra automática de palavras */
   word-spacing: normal;
+  /* Remove espaçamento forçado */
   line-height: 1.6;
+  /* Melhora legibilidade */
   font-size: 1rem;
+  /* Tamanho confortável para leitura */
 }
 
+/* Video Section */
 .video-card {
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   margin-bottom: 2.5rem;
+  /* Garantir espaço entre os cards em dispositivos móveis */
 }
 
 .video-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Seção Sobre Nós */
+#sobrenos {
+  background-color: #fafafa;
+}
+
+#sobrenos .row {
+  align-items: center;
+  min-height: 500px;
+}
+
+#sobrenos .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#sobrenos img {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#sobrenos .texto {
+  padding: 2rem 1rem;
+}
+
+#sobrenos .texto p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 991px) {
+  #sobrenos .col-lg-6 {
+    margin-bottom: 2rem;
+  }
+  
+  #sobrenos img {
+    max-height: 300px;
+    margin-bottom: 2rem;
+  }
+  
+  #sobrenos .texto {
+    padding: 1rem 0;
+  }
 }
 
 .info-video {
@@ -434,6 +504,7 @@ input[type="file"] {
   color: black;
 }
 
+/* Features e Pilares Cards */
 .card {
   border: none;
   background-color: white;
@@ -447,6 +518,7 @@ input[type="file"] {
   z-index: 1;
   overflow: hidden;
   margin-bottom: 2rem;
+  /* Garantir espaço entre os cards em dispositivos móveis */
 }
 
 .card::before {
@@ -526,6 +598,7 @@ input[type="file"] {
   margin-bottom: 1rem;
   transition: all 0.3s ease;
   height: 100%;
+  /* Garantir que todos os cards tenham a mesma altura */
 
   flex-direction: column;
 }
@@ -537,6 +610,8 @@ input[type="file"] {
   margin-bottom: 1rem;
   transition: all 0.3s ease;
   height: 100%;
+  /* Garantir que todos os cards tenham a mesma altura */
+
   flex-direction: column;
 }
 
@@ -546,6 +621,8 @@ input[type="file"] {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Estilos para as imagens com Fancybox */
 .img-premio {
   position: relative;
   overflow: hidden;
@@ -554,6 +631,7 @@ input[type="file"] {
   justify-content: center;
   background-color: #f9f9f9;
   height: 65%;
+  /* Altura fixa para todas as imagens */
   width: 100%;
 }
 
@@ -569,6 +647,7 @@ input[type="file"] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* Manter proporção e preencher o espaço */
   transition: all 0.5s ease;
 }
 
@@ -636,6 +715,7 @@ input[type="file"] {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
+  /* Changed to row for horizontal alignment */
   justify-content: center;
   align-items: center;
 }
@@ -647,6 +727,7 @@ input[type="file"] {
   color: black;
 }
 
+/* Certificações */
 .card-certificacao {
   background-color: white;
   border-radius: 10px;
@@ -714,6 +795,7 @@ input[type="file"] {
   font-size: 0.95rem;
 }
 
+/* Documentos */
 .card-documento {
   background-color: white;
   border-radius: 10px;
@@ -777,12 +859,16 @@ input[type="file"] {
   border-bottom: none;
 }
 
+/* Linha do tempo */
 .linhaTempo-img {
   width: 100%;
   height: 100%;
   max-width: 100%;
 }
 
+
+
+/* Estilos para a linha do tempo */
 .linha-tempo {
   position: relative;
   padding: 20px 0;
@@ -791,7 +877,7 @@ input[type="file"] {
 
 .linha-tempo-traco {
   position: absolute;
-  top: 37%;
+  top: 30%;
   left: 0;
   width: 100%;
   height: 4px;
@@ -830,7 +916,7 @@ input[type="file"] {
 .marcador-linha-tempo::after {
   content: '';
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   width: 4px;
@@ -845,10 +931,11 @@ input[type="file"] {
 }
 
 .conteudo-linha-tempo p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.4;
 }
 
+/* Estilos para a linha do tempo mobile */
 .linha-tempo-mobile {
   position: relative;
   padding: 20px 0;
@@ -900,6 +987,8 @@ input[type="file"] {
   font-size: 0.95rem;
 }
 
+
+/* Animações */
 @keyframes stroke {
   100% {
     stroke-dashoffset: 0;
@@ -964,6 +1053,7 @@ input[type="file"] {
   }
 }
 
+/* Aplicando animação aos elementos */
 .cabecalho-secao,
 .card-certificacao,
 .card-documento,
@@ -972,6 +1062,8 @@ input[type="file"] {
   opacity: 0;
 }
 
+
+/* Responsividade */
 @media (max-width: 767px) {
 
   .secao-fale-conosco,
@@ -982,6 +1074,7 @@ input[type="file"] {
   .secao-video,
   .secao-premios {
     padding: 3rem 0;
+    /* Reduzir padding em dispositivos móveis */
   }
 }
 
@@ -996,10 +1089,6 @@ input[type="file"] {
 
   .card-contato {
     padding: 1.5rem;
-  }
-
-  .imagem-principal-representantes {
-    height: 300px;
   }
 
   .btn-contact-whatsapp {
@@ -1099,6 +1188,7 @@ input[type="file"] {
 @media (max-width: 576px) {
   .titulo {
     font-size: 1.5rem;
+    /* Ainda menor para telas muito pequenas */
   }
 
   .descricao {
@@ -1119,10 +1209,6 @@ input[type="file"] {
 @media (max-width: 991px) {
   .titulo {
     font-size: 2rem;
-  }
-
-  .imagem-principal-representantes {
-    height: 400px;
   }
 
   .card-contato {
@@ -1160,11 +1246,70 @@ input[type="file"] {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  
+  .linha-tempo-traco {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+
   .marcador-linha-tempo {
     width: 60px;
     height: 60px;
     font-size: 1.1rem;
   }
+
+  .marcador-linha-tempo::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 15px;
+  background-color: var(--primary-color);
+}
+  
+
+  .conteudo-linha-tempo p {
+    font-size: 0.6rem;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  
+  .linha-tempo-traco {
+  position: absolute;
+  top: 27%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+
+  .marcador-linha-tempo {
+    width: 60px;
+    height: 60px;
+    font-size: 1.1rem;
+  }
+
+  .marcador-linha-tempo::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 15px;
+  background-color: var(--primary-color);
+}
+  
 
   .conteudo-linha-tempo p {
     font-size: 0.8rem;

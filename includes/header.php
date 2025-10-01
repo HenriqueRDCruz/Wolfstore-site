@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#cc7248">
     <meta name="description"
         content="Wolfstore - Indústria têxtil com soluções completas em moda e inovação. Fabricamos tecidos de alta qualidade para o mercado nacional e internacional.">
     <meta name="keywords" content="
@@ -42,7 +44,7 @@ textil, texteis, têxteis, têxtel, texil, texeis, têxteis, têxtil brasil
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.wolfstore.com.br/site/Wolfstore_demo/">
     <meta property="og:image"
-        content="https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/WOLFSTORE.png">
+        content="https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/favicon.ico">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Wolfstore">
@@ -54,7 +56,7 @@ textil, texteis, têxteis, têxtel, texil, texeis, têxteis, têxtil brasil
     <meta name="twitter:title"
         content="<?php echo isset($pageTitle) ? htmlspecialchars($pageTitle) . ' - Wolfstore' : 'Wolfstore Indústria Têxtil'; ?>">
     <meta name="twitter:description" content="Wolfstore - Indústria têxtil.">
-    <meta name="twitter:image"  content="https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/WOLFSTORE.png">
+    <meta name="twitter:image"  content="https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/favicon.ico">
 
     <link rel="canonical" href="https://www.wolfstore.com.br/site/Wolfstore_demo/<?php echo $_SERVER['REQUEST_URI']; ?>">
  
@@ -63,11 +65,10 @@ textil, texteis, têxteis, têxtel, texil, texeis, têxteis, têxtil brasil
     </title>
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/LOGOS_WOLFSTORE/icon.jpg" type="image/jpg">
-    <link rel="apple-touch-icon" href="assets/images/LOGOS_WOLFSTORE/icon.jpg">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/LOGOS_WOLFSTORE/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/LOGOS_WOLFSTORE/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/LOGOS_WOLFSTORE/site.webmanifest">
+    <link rel="icon" href="assets/images/LOGOS_WOLFSTORE/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/LOGOS_WOLFSTORE/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/LOGOS_WOLFSTORE/favicon-32x32.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/LOGOS_WOLFSTORE/favicon-16x16.ico">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/ferramentas/bootstrap.min.css">
@@ -85,7 +86,7 @@ textil, texteis, têxteis, têxtel, texil, texeis, têxteis, têxtil brasil
       "@type": "Organization",
       "name": "Wolfstore",
       "url": "https://www.wolfstore.com.br/site/Wolfstore_demo/",
-      "logo": "https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/WOLFSTORE.png",
+      "logo": "https://www.wolfstore.com.br/site/Wolfstore_demo/assets/images/LOGOS_WOLFSTORE/favicon.ico",
       "description": "Indústria têxtil com soluções completas em moda e inovação.",
       "sameAs": [
         "https://www.instagram.com/wolfstoreoficial/",

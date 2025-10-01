@@ -1,5 +1,7 @@
 <?php
+// Process form submission
 if (isset($_POST['submit'])) {
+    // Captura os dados do formulário
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $prefixo = isset($_POST['prefixo']) ? $_POST['prefixo'] : '';
     $telefone = isset($_POST['telefone']) ? $_POST['telefone'] : '';
@@ -8,11 +10,13 @@ if (isset($_POST['submit'])) {
     $assunto = isset($_POST['assunto']) ? $_POST['assunto'] : 'Fale conosco - Site';
     $dataEnvio = date('d/m/Y H:i:s');
 
-    $email_remetente = 'sistemas2@wolfstore.com.br';
-    $email_destinatario = 'sistemas2@wolfstore.com.br';
+    // Informações do e-mail
+    $email_remetente = 'contato@wolfstore.com.br';
+    $email_destinatario = 'comercial02@wolfstore.com.br';
     $email_reply = $email;
     $email_assunto = "Contato: " . $assunto;
 
+    // Conteúdo do e-mail em HTML
     $email_conteudo = "
     <html>
     <head>
@@ -119,7 +123,9 @@ if (isset($_POST['submit'])) {
     </body>
     </html>";
 
+    // Verifica se há anexo
     if (isset($_FILES['anexo']) && $_FILES['anexo']['error'] === UPLOAD_ERR_OK) {
+        // Captura os dados do arquivo
         $file_tmp = $_FILES['anexo']['tmp_name'];
         $file_name = $_FILES['anexo']['name'];
         $file_type = $_FILES['anexo']['type'];
@@ -128,11 +134,13 @@ if (isset($_POST['submit'])) {
         $file_encoded = chunk_split(base64_encode($file_data));
         $boundary = md5(time());
 
+        // Cabeçalhos com anexo
         $email_headers = "From: " . $email_remetente . "\r\n";
         $email_headers .= "Reply-To: " . $email_reply . "\r\n";
         $email_headers .= "MIME-Version: 1.0\r\n";
         $email_headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
 
+        // Corpo do e-mail com anexo
         $message_body = "--$boundary\r\n";
         $message_body .= "Content-Type: text/html; charset=UTF-8\r\n";
         $message_body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
@@ -146,19 +154,24 @@ if (isset($_POST['submit'])) {
         $message_body .= "--$boundary--";
 
     } else {
+        // Cabeçalhos simples (sem anexo)
         $email_headers = "From: " . $email_remetente . "\r\n";
         $email_headers .= "Reply-To: " . $email_reply . "\r\n";
         $email_headers .= "Content-Type: text/html; charset=UTF-8\r\n";
         $email_headers .= "MIME-Version: 1.0\r\n";
 
+        // Corpo do e-mail simples
         $message_body = $email_conteudo;
     }
 
+    // Envia o e-mail
     $success = mail($email_destinatario, $email_assunto, $message_body, $email_headers);
 
+    // Inicia sessão para passar status
     session_start();
     $_SESSION['email_status'] = $success ? 'success' : 'error';
 
+    // Redireciona de volta para a página do formulário
     header('Location: fale-conosco.php');
     exit;
 }

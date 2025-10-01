@@ -25,7 +25,7 @@
 
 .marca-rodape img {
     transition: var(--transition);
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1); /* Deixa branco */
 }
 
 .rede-social-rodape h3 {

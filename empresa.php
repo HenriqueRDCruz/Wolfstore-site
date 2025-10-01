@@ -19,7 +19,9 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">1995</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Início das operações em Novo Hamburgo, RS</p>
+                            <p>Início das operações
+                            Novo Hamburgo, RS 
+                            Onde tudo começou.</p>
                         </div>
                     </div>
                 </div>
@@ -28,7 +30,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2006</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Ampliamos nossa estrutura ao nos mudarmos para o prédio atual</p>
+                            <p>Ampliação da estrutura
+                            Mudança para o prédio atual da matriz, em Novo Hamburgo.</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +40,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2012</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Abertura da nossa primeira filial, Wolfstore Style em Novo Hamburgo</p>
+                            <p>Wolfstore Style
+                            Abertura da nossa primeira filial, também em Novo Hamburgo.</p>
                         </div>
                     </div>
                 </div>
@@ -46,7 +50,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2015</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Fundamos a W Nordeste Bahia em Poções</p>
+                            <p>W Nordeste - Unidade Bahia (poções)
+                        Início da nossa expansão regional com a fundação da W Nordeste, levando nossos materiais ainda mais longe.</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +60,7 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2020</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Abertura da filial em Itajaí, Santa Catarina</p>
+                            <p>Abrimos a unidade em Itajaí (SC), cidade estratégica para logística e distribuição</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +69,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2022</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Abertura da filial W Nordeste, em Poções</p>
+                            <p>Nova unidade da W Nordeste - Poções (BA)
+                            Expensão da estrutura da W Nordeste com a abertura de uma segunda filial em Poções, reforçando a operação na Bahia.</p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +79,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2024</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Fundamos a Wolfstore MG, voltada ao varejo, em Nova Serrana, Minas Gerais</p>
+                            <p>Wolfstore MG - Nova Serrana (MG)
+                            Abertura da unidade com foco no varejo e atendimento direto ao polo mineiro.</p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +89,8 @@ include 'includes/header.php';
                     <div class="item-linha-tempo">
                         <div class="marcador-linha-tempo">2024</div>
                         <div class="conteudo-linha-tempo">
-                            <p>Fundamos a W Nordeste Ceará, em Mombaça</p>
+                            <p>W Nordeste - Unidade Ceará (MG)
+                            Nova filial da W Nordeste, levando nossos materiais ao polo produtivo cearense.</p>
                         </div>
                     </div>
                 </div>
@@ -93,49 +101,57 @@ include 'includes/header.php';
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">1995</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Início das operações em Novo Hamburgo, RS</p>
+                    <p>Início das operações
+                            Novo Hamburgo, RS 
+                            Onde tudo começou.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2006</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Ampliamos nossa estrutura ao nos mudarmos para o prédio atual</p>
+                    <p>Ampliação da estrutura
+                            Mudança para o prédio atual da matriz, em Novo Hamburgo.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2012</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Abertura da nossa primeira filial, Wolfstore Style em Novo Hamburgo</p>
+                    <p>Wolfstore Style
+                            Abertura da nossa primeira filial, também em Novo Hamburgo.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2015</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Fundamos a W Nordeste Bahia em Poções</p>
+                    <p>W Nordeste - Unidade Bahia (poções)
+                        Início da nossa expansão regional com a fundação da W Nordeste, levando nossos materiais ainda mais longe.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2020</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Abertura da filial em Itajaí, Santa Catarina</p>
+                    <p>Abrimos a unidade em Itajaí (SC), cidade estratégica para logística e distribuição</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2022</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Abertura da filial W Nordeste, em Poções</p>
+                    <p>Nova unidade da W Nordeste - Poções (BA)
+                            Expensão da estrutura da W Nordeste com a abertura de uma segunda filial em Poções, reforçando a operação na Bahia.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2024</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Fundamos a Wolfstore MG, voltada ao varejo, em Nova Serrana, Minas Gerais</p>
+                     <p>Wolfstore MG - Nova Serrana (MG)
+                            Abertura da unidade com foco no varejo e atendimento direto ao polo mineiro.</p>
                 </div>
             </div>
             <div class="item-linha-tempo-mobile">
                 <div class="marcador-linha-tempo-mobile">2024</div>
                 <div class="conteudo-linha-tempo-mobile">
-                    <p>Fundamos a W Nordeste Ceará, em Mombaça</p>
+                    <p>W Nordeste - Unidade Ceará (MG)
+                            Nova filial da W Nordeste, levando nossos materiais ao polo produtivo cearense.</p>
                 </div>
             </div>
         </div>

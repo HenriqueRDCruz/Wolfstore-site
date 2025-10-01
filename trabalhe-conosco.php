@@ -125,19 +125,22 @@ include 'includes/header.php';
 <?php include 'includes/footer.php'; ?>
 
 <script src="assets/js/imask.js"></script>
-<script src="assets/js/validaNumero.js"></script>
+<script src="assets/js/validaNumero.js?v=2"></script>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
+        // Máscara para telefone
         IMask(document.getElementById('telefone'), {
             mask: '(00) 00000-0000'
         });
 
+        // Atualiza o nome do arquivo anexado
         document.getElementById('anexo')?.addEventListener('change', function () {
             const fileName = this.files[0]?.name || 'Anexar arquivo';
             document.getElementById('file-name').textContent = fileName;
         });
 
+        // Animação de entrada
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {

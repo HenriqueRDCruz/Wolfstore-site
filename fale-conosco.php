@@ -10,7 +10,7 @@ include 'includes/header.php';
             <h2 class="titulo">REPRESENTANTES</h2>
             <div class="divisor mx-auto"></div>
             <p class="texto">
-                Nossa equipe de representantes comerciais está pronta para te atender em todo o Brasil e também no
+                Nossa equipe comercial está pronta para te atender em todo o Brasil e também no
                 exterior,
                 oferecendo consultoria técnica e atendimento personalizado.
             </p>
@@ -19,7 +19,7 @@ include 'includes/header.php';
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="representantes-image-container">
-                    <img src="https://placehold.co/400x300" alt="Equipe de Representantes Wolfstore" class="img-fluid imagem-principal-representantes">
+                    <img src="assets/images/representantes.jpeg" alt="Equipe Comercial Wolfstore" class="img-fluid imagem-principal-representantes">
                 </div>
             </div>
         </div>
@@ -168,15 +168,18 @@ include 'includes/header.php';
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
+        // Máscara para telefone
         IMask(document.getElementById('telefone'), {
             mask: '(00) 00000-0000'
         });
 
+        // Atualiza o nome do arquivo anexado
         document.getElementById('anexo')?.addEventListener('change', function () {
             const fileName = this.files[0]?.name || 'Anexar arquivo (opcional)';
             document.getElementById('file-name').textContent = fileName;
         });
 
+        // Animação de entrada
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {

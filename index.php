@@ -12,13 +12,13 @@ include 'includes/header.php';
         </div>
 
         <div class="row text-center">
-            <div class="col-lg-6 order-1 order-lg-2">
-                <img src="https://placehold.co/800x600" 
-                    alt="Tecidos sustentáveis Wolfstore" class="img-fluid rounded-4">
+            <div class="col-lg-6 order-1 order-lg-2 d-flex align-items-center justify-content-center">
+                <img src="assets/images/wolfstorefront.jpeg" 
+                    alt="Tecidos sustentáveis Wolfstore" class="img-fluid rounded-4 imagem-wolfstorefront">
             </div>
 
-            <div class="col-lg-6 order-2 order-lg-1">
-                <div class="texto">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex align-items-center">
+                <div class="texto w-100">
                     <p>
                         Criada em 1995, a Wolfstore nasceu em Novo Hamburgo, no coração do Rio Grande do Sul, com uma
                         paixão
@@ -65,7 +65,7 @@ include 'includes/header.php';
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
                 <div class="video-card">
                     <div class="ratio ratio-16x9 rounded-4">
-                        <iframe src="https://www.youtube.com/embed/nyzvh0dfi7M?start=2" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/QSP7lcmJ1hw" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info-video ">
                         <h3>VÍDEO 30 ANOS</h3>
@@ -75,7 +75,7 @@ include 'includes/header.php';
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
                 <div class="video-card">
                     <div class="ratio ratio-16x9 rounded-4">
-                        <iframe src="https://www.youtube.com/embed/nyzvh0dfi7M?start=2" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/nMm82YmypO0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="info-video">
                         <h3>VÍDEO GRUPO WOLFSTORE</h3>
