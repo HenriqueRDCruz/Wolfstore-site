@@ -275,9 +275,9 @@ include 'includes/header.php';
                     </div>
                     <div class="conteudo-documento">
                         <ul class="list-unstyled">
-                            <li><a href="assets/docs/Politica_de_Sustentabilidade_2024.pdf" class="link-documento">Política de Sustentabilidade</a></li>
-                            <li><a href="assets/docs/Politica_de_Anticorrupcao_2024.pdf" class="link-documento">Política de Anticorrupção</a></li>
-                            <li><a href="assets/docs/Politica_de_Concorrencia_2024.pdf" class="link-documento">Política de Concorrência</a></li>
+                            <li><a href="assets/docs/Politica_de_Sustentabilidade.pdf" class="link-documento">Política de Sustentabilidade</a></li>
+                            <li><a href="assets/docs/Politica_de_Anticorrupcao.pdf" class="link-documento">Política de Anticorrupção</a></li>
+                            <li><a href="assets/docs/Politica_de_Concorrencia.pdf" class="link-documento">Política de Concorrência</a></li>
                         </ul>
                     </div>
                 </div>
@@ -290,7 +290,7 @@ include 'includes/header.php';
                     </div>
                     <div class="conteudo-documento">
                         <ul class="list-unstyled">
-                            <li><a href="assets/docs/RELATORIO_SUSTENTABILIDADE_2024.pdf" 
+                            <li><a href="assets/docs/RELATORIO_SUSTENTABILIDADE.pdf" 
                                 class="link-documento">Relatório de Sustentabilidade</a></li>
                             <li><a href="assets/docs/Relatorio_de_Transparencia_e_Igualdade_Salarial.pdf" 
                                 class="link-documento">Relatório de Transparência e Igualdade Salarial</a></li>
@@ -306,7 +306,7 @@ include 'includes/header.php';
                     </div>
                     <div class="conteudo-documento">
                         <ul class="list-unstyled">
-                            <li><a href="assets/docs/Codigo_de_Conduta_Etica_2024.pdf" class="link-documento">Código de Ética</a></li>
+                            <li><a href="assets/docs/Codigo_de_Conduta_Etica.pdf" class="link-documento">Código de Ética</a></li>
                         </ul>
                     </div>
                 </div>

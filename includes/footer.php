@@ -57,27 +57,27 @@
                     <h2 class="titulo-rodape">Documentos</h2>
                     <ul class="links-rodape documentos-rodape">
                         <li>
-                            <a href="assets/docs/Politica_de_Sustentabilidade_2024.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="assets/docs/Politica_de_Sustentabilidade.pdf" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-file-earmark-text"></i> Política de Sustentabilidade
                             </a>
                         </li>
                         <li>
-                            <a href="assets/docs/Politica_de_Anticorrupcao_2024.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="assets/docs/Politica_de_Anticorrupcao.pdf" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-file-earmark-text"></i> Política de Anticorrupção
                             </a>
                         </li>
                         <li>
-                            <a href="assets/docs/Politica_de_Concorrencia_2024.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="assets/docs/Politica_de_Concorrencia.pdf" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-file-earmark-text"></i> Política de Concorrência
                             </a>
                         </li>
                         <li>
-                            <a href="assets/docs/Codigo_de_Conduta_Etica_2024.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="assets/docs/Codigo_de_Conduta_Etica.pdf" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-file-earmark-text"></i> Código de Ética
                             </a>
                         </li>
                         <li>
-                            <a href="assets/docs/RELATORIO_SUSTENTABILIDADE_2024.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="assets/docs/RELATORIO_SUSTENTABILIDADE.pdf" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-file-earmark-text"></i> Relatório de Sustentabilidade
                             </a>
                         </li>
